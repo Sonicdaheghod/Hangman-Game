@@ -3,8 +3,6 @@
 # #credit for hangman and wordbank template: <script src="https://gist.github.com/chrishorton/8510732aa9a80a03c829b09f12e20d9c"
 # #Hangman game code based on: https://www.youtube.com/watch?v=cJJTnI22IF8
 
-
-# #Here, I want to create a storage space for the images of hangman and chemistry terms
 import random
 from words import genChemWords
 
@@ -62,8 +60,6 @@ def hangman():
     else:
         print('YAY! You guessed the word', genChemWord, '!!')
 
-
+#begins game
 if __name__ == '__main__':
     hangman()
-
- 
