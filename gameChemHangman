@@ -5,6 +5,7 @@
 
 import random
 from words import genChemWords
+from HangmanImages import hangmanImages
 
 import string
 
@@ -23,7 +24,7 @@ def hangman():
     genChemAlphabet = set(string.ascii_uppercase)
     lettersGuessed = set()  # what the user has guessed
 
-    livesRemain = 7
+    livesRemain = 6
 
     # getting user input
     while len(genChemLetters) > 0 and livesRemain > 0:
@@ -33,7 +34,7 @@ def hangman():
 
         # what current word is (ie W - R D)
         listChemWord = [letter if letter in lettersGuessed else '-' for letter in genChemWord]
-        
+        print(hangmanImages[livesRemain])
         print('Current word: ', ' '.join(listChemWord))
 
         userAttempt = input('Guess a letter: ').upper()
@@ -55,11 +56,11 @@ def hangman():
 
     # gets here when len(word_letters) == 0 OR when lives == 0
     if livesRemain == 0:
-        
+        print(hangmanImages[livesRemain])
         print('You died, sorry. The word was', genChemWord)
     else:
         print('YAY! You guessed the word', genChemWord, '!!')
 
-#begins game
+
 if __name__ == '__main__':
     hangman()
