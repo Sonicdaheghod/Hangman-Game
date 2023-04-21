@@ -51,3 +51,74 @@ When the user begins the game, they will be show the hanging stand display and i
 Current word:  - - - - -
 Guess a letter:
 ```
+The user will be show a letter bank of what letters used, how many lives they have left, the letters guessed correctly/ incorrectly, and the hanging character piece by piece if they incorrectly guess. The user will keep guessing until they run out of lives or they correctly guess the word.
+
+Incorrect guess display:
+
+```
+Your letter, E is not in the word.
+You have 4 lives left and you have used these letters:  W E
+
++-------------------------------+
+              |                 |
+             _|_                |
+            /   \               |
+            O   O               |
+             \ /                |
+              |                 |
+            //  \               |
+          | /    ||             |
+          |      ||             |
+          \\      /             |
+           \\    /              |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+========================================
+
+Current word:  - - - - -
+Guess a letter:
+```
+Correctly guessed word display:
+
+```
++-------------------------------+
+              |                 |
+              |                 |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+                                |
+========================================
+Current word:  A R R H E N I U -
+Guess a letter: s
+
+YAY! You guessed the word ARRHENIUS !!
+
+```
+
+# Credits
+I refered to the links below for the hangman template:
+
+> https://www.youtube.com/watch?v=cJJTnI22IF8
+> https://gist.github.com/chrishorton/8510732aa9a80a03c829b09f12e20d9c
