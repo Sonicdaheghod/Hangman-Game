@@ -9,8 +9,8 @@ Python was used to create the bulk of the program (game functionality, word bank
               |                 |
      \|/     _|_     \|/        |
       \     /   \    /          |
-      \\\\\   O   O  ///          |
-       \\\\\   \ /  ///           |
+    \\\\\   O   O  ///          |
+     \\\\\   \ /  ///           |
          \    |   /             |
           \ //  \/              |
           | /    ||             |
@@ -19,9 +19,9 @@ Python was used to create the bulk of the program (game functionality, word bank
             \\  /               |
               |                 |
               |                 |
-            /   \\               |
-           /     \\              |
-     ____/        \\____         |
+           /   \\               |
+          /     \\              |
+    ____/        \\____         |
                                 |
                                 |
                                 |
