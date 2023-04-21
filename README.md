@@ -34,3 +34,20 @@ When coding this program, a challenge I faced was formatting my ASCII art so tha
 
 Some features I hope to implement in this is a word bank that includes more words and something that displays a timer for how long the user has to guess to make the game hard.
 
+## How to Play the Game
+
+When the user begins the game, they will be show the hanging stand display and is prompted to guess a letter:
+
+```You have 6 lives left and you have used these letters:
+
+
++-------------------------------+
+              |                 |
+              |                 |
+                                |
+                                |
+                                |
+========================================
+Current word:  - - - - -
+Guess a letter:
+```
